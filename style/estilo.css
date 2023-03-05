@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+:root {
+  --cor-hover: linear-gradient(to right, #596369, #6dc1db, #a1c4c9);
+}
+.aparencia {
+  background-color: rgb(96 125 139 / 42%);
+  width: 50%;
+  display: grid;
+  border-radius: 20px;
+  height: 59vh;
+  box-shadow: 2px 2px 2px 2px #0000008a;
+}
+.geral {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: url(/img/vidro.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#num {
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  margin: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(240, 255, 255, 0.829);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #0000008a;
+  font-size: 2vmin;
+}
+#botao {
+  margin: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(240, 255, 255, 0.829);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px#0000008a;
+  font-size: 2vmin;
+}
+#botao:hover,
+#num:hover {
+  background-color: rgb(96 125 139 / 42%);
+  transition: all 5s;
+  opacity: 5;
+  color: rgb(0, 0, 0);
+}
+#titulo,
+#paragrafo,
+#resultado {
+  margin: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#titulo {
+  cursor: grab;
+}
+#titulo:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+#paragrafo {
+  font-size: 2vmin;
+}
